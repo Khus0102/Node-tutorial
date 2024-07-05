@@ -1,1 +1,5 @@
-learn more in contect about call back hell
+Learn more in context about call back hell
+
+//Event Loop:-
+JS is synchronous, so for instance two users send req, event loop helps to do both req togeather by making the js jump to the next line until the previous code is still being executed.
+NOTE:- Even if the previous code gets complete,it code won't get executed until the next line gets executed. 
