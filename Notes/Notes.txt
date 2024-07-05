@@ -1,0 +1,13 @@
+Json version:-
+//npm --version
+
+local dependency;- used for only this project
+//npm i install  <package name>
+
+global dependency:- install for any project
+//npm install -g<package name>
+
+package.json intalls important files
+\\Manual approach:- (create package in root, create properties etc.) 
+//npm init (step by step, press enter to skip)
+//npm init -y(everything in default setup)
