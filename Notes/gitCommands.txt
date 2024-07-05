@@ -2,7 +2,7 @@ show git change
 //git add .
 
 Commit the changes
-//git commt m-"Add new folder"
+//git commt -m"Add new folder"
 
 Push the changes to git repository
 //git push origin main

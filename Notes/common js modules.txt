@@ -1,0 +1,22 @@
+exports.(file name)
+//to export a module., Note, the whole module is exported, even if exporting a function.
+///usage:-
+1> Export directly:-
+module.exports.items = ["item1", "item2"];
+
+2> Export a function by creating a new const(eg singlePerson):-
+module.exports.singlePerson = person; //person is the function.
+
+3> Export a function by entering properties:-
+module.export = {john, peter} //const properties.
+
+4> Export the function straight up:-
+module.export = SayHi //a function name
+
+
+require()
+//It is used to import a module.
+///usage:-
+
+1> For importing from another place:-
+require("./moduleName")
