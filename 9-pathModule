@@ -1,0 +1,14 @@
+const path = require("path");
+
+console.log(path.sep);
+
+const filePath = path.join("content", "subfolders", "text.txt");
+console.log(filePath);
+// tells the dev about the base file, that is the last file in the whole path.
+const base = path.basename(filePath); // base file is "text.text"
+console.log(base);
+//converts the following to an absoulte path.
+const absolute = path.resolve(__dirname, "content", "subfolders", "text.txt");
+console.log(absolute);
+//check for an absoulte path
+console.log(path.isAbsolute(absolute));
